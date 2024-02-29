@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input[type="number"]:in-range {
+    border: 2px solid green;
+}
+
+input[type="number"]:out-of-range {
+    border: 2px solid red;
+}
+    </style>
 </head>
 <body>
-    <div>
-        
+    <h1>Input</h1>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequatur nostrum laboriosam repudiandae voluptatum perferendis ullam repellat dignissimos, obcaecati dolore est nemo quidem voluptas vel, pariatur eos soluta eaque quaerat.
     </div>
+    <form>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" min="0" max="120" value="1"> 
+        <br>
+        <button>Enviar</button>
+        </form>
 </body>
 </html>
