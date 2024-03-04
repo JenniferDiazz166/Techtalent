@@ -1,0 +1,6 @@
+*{} /*000*/
+h1{} /*001*/
+.container{} /*010*/
+.conainer[href]{}/*020*/
+#título{} /*100*/
+!important /*lo máximo*/

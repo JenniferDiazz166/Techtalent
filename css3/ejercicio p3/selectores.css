@@ -1,0 +1,26 @@
+*{
+    color:blueviolet
+}
+*{
+    background-color:mintcream
+}
+p{
+    background-color: darkgray;
+}
+#title-1{color:darkblue}
+.bg-yellow{color:cornflowerblue}
+[id]{
+    border-style: groove;
+    
+}
+[id],#tittle-1{
+    border:0rex
+}
+[href="https://www.yahoo.com"]
+[class^="tittle"]{background-color: darkslategray;}
+[href*=".com"]{
+    background-color: lightgreen;
+}
+[class|="title"]{
+    color:black
+}
