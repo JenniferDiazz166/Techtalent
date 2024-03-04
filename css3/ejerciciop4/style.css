@@ -1,0 +1,21 @@
+h1{
+    color:rgb(192, 17, 104);
+    display: inline-block;
+
+}
+h1:hover{
+    color: blue;
+}
+body{
+    background-color: rgb(243, 203, 223);
+}
+p{
+    column-count: 3;
+    column-rule-style: groove;
+    column-rule-color: rgb(153, 11, 87);
+    column-gap: 40px;
+}
+p::selection{
+    color: rgba(169, 157, 157, 0.237);
+    background-color: cornflowerblue;
+}
