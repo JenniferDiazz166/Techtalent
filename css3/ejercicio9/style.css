@@ -1,0 +1,21 @@
+body{
+    margin-left: auto;
+    width: 50%;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.div1{
+    background-color: rgb(135, 240, 240);
+    height: 200px;
+    width: 200px;
+    outline: 20px dotted rgb(4, 40, 76);
+    /*outline:rgb(7, 108, 126) solid 5px;*/
+    outline-offset: 5px;
+    border: rgb(6, 66, 105) solid 3px;
+}
+
+.div1:hover{
+    outline: 4px dotted black;
+    background-color: beige;
+    border:blueviolet solid 3px;
+}
