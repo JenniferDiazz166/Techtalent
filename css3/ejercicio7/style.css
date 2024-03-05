@@ -1,14 +1,16 @@
-h2{
-    background-color: blueviolet;
+caption{
+    background-color: rgba(137, 43, 226, 0.471);
+    
 }
 table{
     border: 4px solid purple;
-    width: 500px;
+    width: 400px;
     height: 50px;
-    background-color: burlywood;
-    padding: 20px;
+    background-color: rgb(228, 203, 242);
+    padding: 12px;
     border-top-left-radius: 40px;
-    border-toSp-right-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align:center;
     
 }
 
@@ -17,5 +19,10 @@ th{
     border-right: 2px solid black;
     border-left: 0,50px solid black;
     border: 2px solid black;
+    padding-top:7,5px;
     
+}
+
+td{
+    background-color: rgb(132, 105, 157);
 }
