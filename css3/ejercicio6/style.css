@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width: 50%;
+    background-color: whitesmoke;
+    margin-left:auto;
+    margin-right:auto;
+}
+.box{
+    border: solid 1px black;
+    padding: 5px;
+    margin:10px 0px;
+    background-color:azure;
+    min-width: 100px;
+    border-top-left-radius: 50px;
+
+}
+.box-2{
+    text-align:center
+}
