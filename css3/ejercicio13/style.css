@@ -1,0 +1,30 @@
+header{
+    background-color:rgb(241, 17, 17);
+    height:100px;
+    position:static;
+}
+nav{
+    background-color: rgb(97, 97, 232);
+    height: 20px;
+    
+    
+}
+aside{
+    background-color: rgb(237, 138, 179);
+    height:400px;
+    width:800px;
+}
+section{
+    background-color: rgb(232, 182, 218);
+    height:400px;
+    width: 472px;
+    float:right;
+    
+}
+footer{
+    background-color: chartreuse;
+    height:50px;
+    width:100%;
+    float:inline-end
+}
+
