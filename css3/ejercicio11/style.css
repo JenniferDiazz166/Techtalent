@@ -1,0 +1,91 @@
+.container{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.circle{
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%
+}
+
+.circle-1{
+    width: 501px;
+    height:500px;
+    position:relative;
+    top:-300px;
+    left:5px;
+}
+
+.circle-2{
+    width: 500px;
+    height:491px;
+    position:relative;
+    top:5px;
+    left:-1px;
+}
+
+.circle-3{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-4{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-5{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-6{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-7{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-8{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-9{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+.circle-10{
+    width: 450px;
+    height:450px;
+    position: absolute;
+    background-color: yellow;
+}
+
+.circle-red{
+    background: red;
+    border:radius 50px;
+}
+
+.circle-white{
+    background: white;
+    border:radius 50px;
+}
