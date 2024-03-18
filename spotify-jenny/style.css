@@ -1,0 +1,143 @@
+/*Generic*/
+#logo{
+    width:200px;
+    
+}
+nav{
+    display:inline-block;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:gray;
+    font-size: 20px;
+}
+header{
+    margin: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color:black ;
+}
+section{
+    height:100vh;
+    background-size:cover;
+    margin:0;
+    padding: 0px;
+    background-position: center;
+    background-image: url(./images/landing.jpg);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+section p{
+    color: aliceblue;
+}
+section h1{
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: center;
+    display:block;
+    color:white;
+}
+p{
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/*Mobile*/
+@media (width <320px){
+    header{
+        text-align: center;
+        display: block;
+    }
+    nav{
+        display: block;
+        flex-direction:column;
+    }
+    #logo{
+        margin-bottom:8px;
+    }
+}
+/*Tablet*/
+@media(320px<width<740px){
+    header{
+        text-align: center;
+        display: block;
+    }
+    nav{
+        display: block;
+        
+    }
+    #logo{
+        margin-bottom:8px;
+    }
+}
+/*Desktop*/
+@media(width>=740px){
+    /*modificar luego*/
+}
+
+.box-container-1{
+    height:3vh;
+
+}
+
+
+h2{
+    text-align: center;
+    border-bottom:2px solid rgb(42, 190, 141);
+    width:202px;
+    margin:auto; 
+}
+.main2{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.container1{
+    background-color: rgba(46, 192, 136, 0.815);
+    justify-content: center;
+    
+   
+}    
+aside p, h2,h3{
+    color:white;
+}
+
+img1{
+   
+   justify-content: center;
+   
+  
+}
+imagen2{
+   
+   width:100px;
+   display:inline-flexbox;
+   justify-content: flex-end;
+   
+}
+.box-1{
+    display:flex;
+    text-align: center;
+    max-width:100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.box-2{
+    width:100px;
+}
+.box-3{
+    width:200px;
+}
+    
+
+
+
