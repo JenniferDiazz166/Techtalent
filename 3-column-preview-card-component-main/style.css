@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height:600px;
+
+}
+
+.container1, .container2, .container3{
+    color:white;
+    align-items: center; 
+}
+
+.container1{
+    
+    background-color:#e2872a ;
+}
+.container2{
+    background-color:#076a71; 
+}
+.container3{
+    background-color: #043e3d;
+}
