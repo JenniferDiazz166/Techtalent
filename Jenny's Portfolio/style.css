@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(250, 212, 212);
+}
+
+img{
+   width: 100px;
+   float: left;
+}
+
+.contenedor{
+    text-align: center;
+    color:rgb(189, 22, 22);
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.loved-by the king-regular{
+    font-family: "Loved by the King", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.texto{
+    text-align:right; 
+    margin-top:-95px;   
+}
+
+.texto2{
+    text-align:left; 
+    margin-left:5px;
+    margin-top:90px;
+    color:black;
+}
+  
+.container3{
+    float: left;
+    margin-left:-107px;
+    margin-top:-19px;
+    color:rgb(41, 28, 28);
+    font-size: 14px;
+    
+}
+
+a{
+    color:rgba(100, 29, 29, 0.875);
+    
+}
+foto{
+    width:30 px;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height:600px;
+
+}
+
