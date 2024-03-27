@@ -2,10 +2,20 @@ body{
     background-color: rgb(250, 212, 212);
 }
 
-img{
-   width: 100px;
-   float: left;
+.contenedormadre{
+    height:100vh;
+    background-size:cover;
+    margin:0;
+    padding: 0px;
+    background-position: center;
+    background-image: url(./Foto\ pagina\ web.png);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color:white;
 }
+
 
 .contenedor{
     text-align: center;
@@ -35,7 +45,7 @@ img{
   
 .container3{
     float: left;
-    margin-left:-107px;
+    margin-left:11px;
     margin-top:-19px;
     color:rgb(41, 28, 28);
     font-size: 14px;
@@ -44,7 +54,8 @@ img{
 
 a{
     color:rgba(100, 29, 29, 0.875);
-    
+    text-align: center;
+    margin-right: 0;
 }
 foto{
     width:30 px;
@@ -56,6 +67,51 @@ foto{
     align-items: center;
     width: 800px;
     height:600px;
-
 }
 
+.container4{
+    float: left;
+    margin-left:210px;
+    margin-top:60px;
+    color:rgb(41, 28, 28);
+    font-size: 14px;
+    
+}
+.container5{
+    float: left;
+    margin-left:234px;
+    margin-top:65px;
+    color:rgb(41, 28, 28);
+    font-size: 14px;
+    
+}
+.minicontainer{
+    background-color: #54cc9c ;
+    height:500px;
+    width:392px;
+}
+.minicontainer2{
+    background-color: #d45986c6 ;
+    height:500px;
+    width:1384px;
+    color:black;
+    background-image: url(./background.jpg);
+    
+}
+h3{
+    text-align:center; 
+    margin-left:5px;
+    margin-top:41px;
+}
+h5{
+    color:rgb(150, 19, 69);
+}
+.font{
+    color:rgb(51, 131, 114);
+}
+.emoji{
+    height:5px;
+    width:10px:
+    margin-top:43px;
+}
+  
