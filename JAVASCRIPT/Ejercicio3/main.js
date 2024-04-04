@@ -1,5 +1,5 @@
 let nombre;
-nombre='Jennifer'; /*Iniciación de un valor*/
+nombre='Jennifer'; /*Iniciación de un valor*/🪻
 console.log (nombre);
 console.log (typeof(nombre));
 let edad;
@@ -14,7 +14,7 @@ console.log(typeof dni);
 let altura=undefined;
 console.log(typeof altura);
 
-//sirve para demostración de que no son iguales//
+//sirve para demostración de que no son iguales//🫧
 const value1= Symbol("hello");
 const value2= Symbol("hello");
 console.log(value1==value2); //false
@@ -29,7 +29,7 @@ const object={nombre: 'Jennifer', apellido:'diaz cruz'};
 console.log (object);
 console.log(typeof object);
 
-//Para hacer tabla//
+//Para hacer tabla//🐸
 const object1={nombre: 'Jennifer', apellido:'diaz cruz', dni: '39928174J'};
 console.table(object1);
 console.log(typeof object1);
@@ -44,7 +44,7 @@ console.log (typeof array);
 
 /*siempre se empieza por 0, hasta el número que quiera*/
 
-//global//
+//global//🍄
 
 const nennumoon=function(){
     console.log('nennu');
@@ -54,9 +54,11 @@ nennumoon();
 
 //global
 
-/*local*/
+/*local*/ 🐼
 const saludar="hola";
 if(false){
     let edad=23;
 }
-/*local*/
+/*local*
+
+
