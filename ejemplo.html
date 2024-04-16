@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijera</title>
+</head>
+<body>
+    <script>
+        // Función para obtener la jugada aleatoria de la computadora
+        function obtenerJugadaComputadora() {
+            const opciones = ["piedra", "papel", "tijera"];
+            return opciones[Math.floor(Math.random() * opciones.length)];
+        }
+
+        // Función para jugar una ronda
+        function jugar(opcionJugador) {
+            const opcionComputadora = obtenerJugadaComputadora();
+            document.write("<h2>¡Piedra, Papel, Tijera!</h2>");
+            document.write("<h3>Tu elección: " + opcionJugador + "</h3>");
+            document.write("<h3>Computadora eligió: " + opcionComputadora + "</h3>");
+
+            // Mostramos los iconos correspondientes
+            document.write("<p>Tu elección: ");
+            switch (opcionJugador) {
+                case "piedra":
+                    document.write("✊");
+                    break;
+                case "papel":
+                    document.write("✋");
+                    break;
+                case "tijera":
+                    document.write("✌️");
+                    break;
+                default:
+                    document.write("❓");
+            }
+            document.write("</p>");
+
+            document.write("<p>Computadora eligió: ");
+            switch (opcionComputadora) {
+                case "piedra":
+                    document.write("✊");
+                    break;
+                case "papel":
+                    document.write("✋");
+                    break;
+                case "tijera":
+                    document.write("✌️");
+                    break;
+                default:
+                    document.write("❓");
+            }
+            document.write("</p>");
+
+            // Determinamos el ganador
+            if (opcionJugador === opcionComputadora) {
+                document.write("<h3>¡Empate!</h3>");
+            } else if ((opcionJugador === "piedra" && opcionComputadora === "tijera") ||
+                (opcionJugador === "papel" && opcionComputadora === "piedra") ||
+                (opcionJugador === "tijera" && opcionComputadora === "papel")) {
+                document.write("<h3>¡Ganaste!</h3>");
+            } else {
+                document.write("<h3>¡Computadora gana!</h3>");
+            }
+        }
+
+        // Jugar una ronda
+        jugar("piedra");
+    </script>
+</body>
+</html>
