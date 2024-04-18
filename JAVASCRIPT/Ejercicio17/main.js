@@ -19,5 +19,17 @@ document.getElementById("interruptor").addEventListener("click",function(){
 
 });
 
+$(document).ready(function(){
+                         
+    //escondemos el div
+    $("#luces").hide();
+                       
+    $("#apagar").click(function(){
+                       
+          $("#luces").fadeToggle(250);
+                 
+    });
+                       
+});
 
 
