@@ -1,0 +1,35 @@
+//BootStrap al completo
+@import "../../ARCHIVOS/node_modules/bootstrap/scss/bootstrap.scss";
+
+//Lamando a los nodulos necesarios para trabajar con las mediaqueary
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/functions";
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/variables";
+@import "../../ARCHIVOS/node_modules/bootstrap/scss/mixins";
+
+//Xsmedia query
+@include media-breakpoint-only(xs){
+    .container-fluid{
+     background-color: red;
+    }
+}
+@include media-breakpoint-only(sm){
+    .container-fluid{
+     background-color:orange;
+    }
+}
+@include media-breakpoint-only(md){
+    .container-fluid{
+     background-color:darksalmon;
+    }
+}
+
+@include media-breakpoint-only(lg){
+    .container-fluid{
+     background-color:lightgreen;
+    }
+}
+@include media-breakpoint-only(xxl){
+    .container-fluid{
+     background-color:teal;
+    }
+}

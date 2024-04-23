@@ -1,0 +1,165 @@
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+
+.contenedor{
+    margin:0;
+    position:relative;
+    width:100%;
+    height:100%;
+
+}
+
+.minicontenedor{
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   display:flex;
+   flex-wrap: wrap;
+   text-align: center;
+   position: relative;
+   
+  
+
+}
+
+.caja{
+    position:relative;
+    width:50%;
+    height:50%;
+}
+
+.caja-1{
+    background-color:#F8F3EA;
+    p{
+        color:#0B1957;
+        width:145%;
+    }
+    
+}
+
+.caja-2{
+    background-color:#0B1957;
+    p{
+        color:#F8F3EA;
+        width:145%;
+        heigth:50%;
+       
+    }
+   
+}
+
+.caja-3{
+    background-color:#9ECCFA;
+    p{
+        color:#D1E8FF;
+        width:145%;
+    }
+  
+}
+
+.caja-4{
+    background-color:#D1E8FF;
+    p{
+        color:pink;
+        width:145%;
+    }
+    
+
+}
+
+#imagen{
+  max-width: 100%;
+max-height:100%;
+top:32%;
+left:40%;
+position:absolute;
+}
+
+.emoji{
+    float:left;
+    margin-right:11px;
+    margin-top:-50px;
+     
+}
+.emoji4{
+    float:right;
+    margin-right:500px;
+    margin-top:-49px;
+     
+}
+button{
+    width: 47px; /* Ancho del botón */
+    height: 47px; /* Altura del botón */
+    border-radius: 30px;
+    border-color: aquamarine;
+}
+
+.progressbar{
+    background-color:azure;
+    width:208px;
+    height:20px;
+    border-radius: 12px;
+}
+
+.progressbarhtml{
+    background-color:cadetblue;
+    width:79px;
+    height:100%;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 10px;
+}
+.progressbar4{
+    background-color:azure;
+    width:208px;
+    height:20px;
+    border-radius: 12px;
+    float:right;
+}
+
+.progressbarhtml4{
+    background-color:cadetblue;
+    width:200px;
+    height:100%;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 10px;
+    float:left;
+}
+
+h4{
+    text-align: center;
+}
+.barravida{
+    background-color:azure;
+    width:208px;
+    height:20px;
+    border-radius: 12px;
+    overflow: auto;
+    margin-left: 600px;
+}
+
+.barravidaa{
+    background-color:cadetblue;
+    width:79px;
+    height:100%;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 10px;
+    float:left;
+}

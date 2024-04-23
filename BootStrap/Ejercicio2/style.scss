@@ -1,0 +1,26 @@
+//BootStrap al completo
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/bootstrap.scss";
+
+//Lamando a los nodulos necesarios para trabajar con las mediaqueary
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/functions";
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/variables";
+@import "../../ARCHIVOS/node_modules/bootstrap/scss/mixins";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 250px,
+  md: 500px,
+  lg: 750px,
+  xl: 1000px,
+  xxl: 1250px
+);
+@include media-breakpoint-between(xs, lg){
+    .coloress{
+     background-color:violet;
+    }
+}
+@include media-breakpoint-between(lg, xxl){
+    .coloress{
+     background-color:green;
+    }
+}
