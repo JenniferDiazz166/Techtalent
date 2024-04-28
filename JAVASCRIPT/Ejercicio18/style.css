@@ -90,3 +90,30 @@ button{
         border-radius: 30px;
         border-color: aquamarine;
     }
+    .barra {
+        right: 50%;
+        width: 300px; /* Ajusta el ancho de la barra de progreso según sea necesario */
+        height: 16px; /* Ajusta la altura de la barra de progreso según sea necesario */
+        background-color:#ffffa2; /* Color de fondo de la barra de progreso */
+        border-radius: 5px; /* Borde redondeado para la barra de progreso */
+        
+    }
+    
+    .progreso {
+        position: relative;
+        top: 0px; /* Posición de la etiqueta de porcentaje */
+        left: 17px; /* Ajuste fino para centrar la etiqueta de porcentaje */
+        color: black; /* Color de la etiqueta de porcentaje */
+        
+    }
+    h2{
+        text-align: center;
+        width: -21px;
+        height:0px;
+        color:#124f62;
+       
+    }
+    .contenedormadre{
+        background-color:#cbe477;
+    }
+   

@@ -7,17 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--<div class="contenedormadre">
-        <h4> TAMAGOTCHI: NENNUMOON</h4> 
-        <img src="./coffretchi.png" alt="" id="imagen">
-        <section>
-            <div class="barravida">
-                <div class="barravidaa">20%</div>
-            </div>
-        </section>
+    <div class="contenedormadre">
+        <h2> TAMAGOTCHI: NENNUMOON🌱</h4> 
+        <progress id="barraTotal" value="0" max="100"> 0% </progress>
         <h4> ESTADO VIDA: 💛💛💛</h4>
-        </div>--> <!--Enseñar a David-->
-
+        </div>
      
 <div class="contenedor">
     <div class="container">
@@ -26,52 +20,47 @@
         <div class="apartado apartadoComer">
          <p>EAT</p>
          <div id="emojis">
-            <button id="comer1">🍧</button>
-            <button id="comer2">🥑</button>
-            <button id="comer3">🥦</button> 
+            <button id="comer1" onclick="comerHelado()">🍧</button>
+            <button id="comer2" onclick="comerAguacate()">🥑</button>
+            <button id="comer3" onclick="comerBrocoli()">🥦</button> 
         </div>  
-               <div class="progressbar">
-               <div class="progressbarhtml">20%</div>
-               </div>
+        <progress id="barraComer" value="0" max="100"> 32% </progress>
         </div>
+        
 
         <div class="apartado apartadoJugar">
         <p>PLAY</p> 
         <div id="emojis">
-            <button id="jugar1">🎮</button>
-            <button id="jugar2">🎳</button>
-            <button id="jugar3">🏓</button> 
+            <button id="jugar1" onclick="jugarPlay()">🎮</button>
+            <button id="jugar2" onclick="jugarBolos()">🎳</button>
+            <button id="jugar3" onclick="jugarTennis()">🏓</button> 
         </div>   
-                   <div class="progressbar">
-                   <div class="progressbarhtml">20%</div>
-                   </div>
+        <progress id="barraJugar" value="0" max="100"> 32% </progress>
         </div>
 
         <div class="apartado apartadoPelea">
         <p>FIGHT</p> 
         <div class="emojis" >
-            <button id="pelea1">🥊</button>
-            <button id="pelea2">🤸</button>
+            <button id="pelea1" onclick="peleaBoxeo()">🥊</button>
+            <button id="pelea2" onclick="peleaVoltereta()">🤸</button>
             </div>
-                <div class="progressbar">
-                <div class="progressbarhtml">20%</div>
-                </div>
+            <progress id="barraPelea" value="0" max="100"> 32% </progress>
         </div>
 
         <div class="apartado apartadoDormir">
         <p>SLEEP</p> 
         <div class="emojis" >
-            <button id="dormir1">🌃</button>
-            <button id="dormir2">🛏️</button>
+            <button id="dormir1" onclick="dormirNoche()">🌃</button>
+            <button id="dormir2" onclick="dormirCama()">🛏️</button>
             </div>
-                <div class="progressbar">
-                <div class="progressbarhtml">20%</div>
-                </div>
+            <progress id="barraDormir" value="0" max="100"> 32% </progress>
         </div>
-
+       
     </div>
-
+    <img src="./coffretchi.png" alt="" id="imagen">
+    
 </div>
-<img src="./coffretchi.png" alt="" id="imagen">
+<script src="./main.js"></script>
+
 </body>
 </html>
