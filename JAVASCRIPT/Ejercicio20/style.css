@@ -1,0 +1,36 @@
+body{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    background-image: url("./1.webp");
+    background-size: cover;
+}
+
+img{
+    width: 150px;
+    height: 90px;
+    margin-right: 127%;
+    float:right;
+    border-color: yellow;
+    border-radius:20px;
+  
+}
+.instrumentos{
+    margin-top:50%;
+
+}
+
+h1{
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 127%;
+}
+
