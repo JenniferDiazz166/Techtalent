@@ -1,0 +1,27 @@
+button{
+    width:100px;
+    height:30px;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: rgb(219, 187, 249);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 181, 220);
+}
+
+p{
+    text-align: center;
+    color: rgb(151, 93, 205);
+}
+
+h2{
+    color:rgb(219, 187, 249);
+}
+h3{
+    color: rgb(129, 27, 154);
+}
+
