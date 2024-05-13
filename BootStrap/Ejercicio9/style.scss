@@ -1,0 +1,7 @@
+//BootStrap al completo
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/bootstrap.scss";
+
+//Lamando a los nodulos necesarios para trabajar con las mediaqueary
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/functions";
+@import"../../ARCHIVOS/node_modules/bootstrap/scss/variables";
+@import "../../ARCHIVOS/node_modules/bootstrap/scss/mixins";
