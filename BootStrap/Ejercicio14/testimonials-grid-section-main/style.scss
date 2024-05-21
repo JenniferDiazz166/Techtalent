@@ -1,0 +1,19 @@
+//BootStrap al completo
+$primary:rgb(91, 42, 67);
+$secondary:grey;
+$success:#fefefe;
+$info:pink;
+$warning:rgb(68, 66, 66);
+$danger:rgb(243, 243, 239);
+$light:orange;
+$dark:rgb(3, 3, 3);
+@import "../../../ARCHIVOS/node_modules/bootstrap/scss/bootstrap.scss";
+
+//BootStrap al completo
+@import "../../../ARCHIVOS/node_modules/bootstrap/scss/bootstrap.scss";
+
+//Lamando a los nodulos necesarios para trabajar con las mediaqueary
+@import"../../../ARCHIVOS/node_modules/bootstrap/scss/functions";
+@import"../../../ARCHIVOS/node_modules/bootstrap/scss/variables";
+@import "../../../ARCHIVOS/node_modules/bootstrap/scss/mixins";
+
